@@ -10,6 +10,10 @@
 	background-color: white;
 }
 
+.bckgrndlightblue {
+	background-color: #f4f9ff;
+}
+
 .fullheight {
 	height: 100vh;
 }
@@ -20,6 +24,18 @@
 
 .topmargin15 {
 	margin-top: 15%;
+}
+
+.font14 {
+	font-size:14pt
+}
+
+.font20 {
+	font-size:20pt
+}
+
+.font32 {
+	font-size:32pt
 }
 
 .font190 {
@@ -38,8 +54,8 @@
 	color: grey;
 }
 
-.border {
-	border: solid 1px black;
+.borderr {
+	border: solid 2px yellow;
 }
 
 .pad20 {
@@ -54,41 +70,111 @@
 	width: 450px;
 }
 
-.font14 {
-	font-size:14px
-}
 
 .nodecor {
 	text-decoration: none;
 }
 
 
+/*Home Page*/
 
+.vertical-menu {
+    width: 60px;
+    height: 100vh;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
 
+.vertical-menu a {
+    
+    color: black;
+    display: block;
+    padding: 18px;
+    text-decoration: none;
+}
 
+.vertical-menu a:hover {
+    background-color: #ccc;
 
+}
 
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
 
+.position-abs {
+	position: absolute;
+}
 
+.top0 {
+	top:0px;
+}
 
+.leftmargin60 {
+	margin-left: 60px;
+}
 
+.leftpadding0 {
+	padding-left: 0px;
+}
 
+.inline {
+	display: inline;
+}
 
+.floatleft {
+	float: left;
+}
 
+.floatright {
+	float: right;
+}
 
+.nobullet {
+	list-style-type: none;
+}
 
+#sublist a {
+    padding: 0px 5px;
+    text-decoration: none;        
+}
 
+#sublist a:link {
+    color: grey;
+}
 
+#sublist a:visited {
+    color: grey;
+}
 
+#sublist a:hover {
+	border-bottom: 2px solid orange;
+    color: black;
+}
 
+#sublist a:active {
+	border-bottom: 2px solid orange;
+    color: black;	
+}
 
+.width80 {
+	width: 80%
+}
 
+.width20 {
+	width: 20%
+}
 
+legend {
+	color: ;
+}
 
-
-
-
-
+input {
+    width: 100%;
+    -bottom:10px
+}
 
 
 
