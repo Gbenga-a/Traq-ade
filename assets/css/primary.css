@@ -10,8 +10,16 @@
 	background-color: white;
 }
 
+.bckgrndorange {
+	background-color: orange;
+}
+
 .bckgrndlightblue {
 	background-color: #f4f9ff;
+}
+
+.bckgrndpurple {
+	background-color: #232531;
 }
 
 .fullheight {
@@ -58,8 +66,16 @@
     color: orange;
 }
 
+.colorwhite {
+    color: white;
+}
+
 .borderr {
 	border: solid 2px yellow;
+}
+
+.noborder {
+    border: none;
 }
 
 .pad20 {
@@ -84,8 +100,8 @@
 
 .vertical-menu {
     width: 60px;
-    height: 100vh;
-    position: fixed;
+    height: 10;
+    position: absolute;
     top:0px;
     left: 0px;
 }
@@ -116,8 +132,16 @@
 	top:0px;
 }
 
-.leftmargin50 {
+.leftmargin60 {
 	margin-left: 60px;
+}
+
+.leftmargin10 {
+	margin-left: 10px;
+}
+
+.topmargin2 {
+    padding-top: px
 }
 
 .leftpadding0 {
@@ -200,3 +224,4 @@ er ul {list-style: none}
 #activity  li::before {content: "•"; color: orange;
   display: inline-block; width: 1em;
   margin-left: -1em}
+

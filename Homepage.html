@@ -18,10 +18,8 @@
 
 </head>
 <body class="bckgrndlightblue">
-<div>
+<div style="posjjtition: relative">
 
-<div>
-<aside>
 	<div class="vertical-menu bckgrndnavy centertext fullheight">
 <a href="#"><i class="fab fa-wolf-pack-battalion colororange font20"></i></a>
 <a href="#"><i class="fas fa-chart-pie font14"></i></a>
@@ -33,15 +31,28 @@
 <a href="#"><i class="fas fa-compass font14"></i></a>
 <a href="#"><i class="fas fa-bullhorn font14"></i></a>
 	</div>
-</aside>
-</div>
-<div class="leftmargin50" style="margin-left: 70px">
+<div class="leftmargin60">
 	<div style="margin-left: auto">
-		<nav class="navbar bckgrndwhite position-abs top0" style="margin-left: ; width: auto" >
-  	<a href="/html/">HTML</a> |
-  	<a href="/css/">CSS</a> |
-  	<a href="/js/">JavaScript</a> |
-  	<a href="/jquery/">jQuery</a>
+		<nav class="navbar bckgrndwhite position-abs top0">
+<span class="">       
+    <i class="fas fa-search colororange floatleft font14 "></i>
+    <select class="leftmargin10">
+  <option value="Leads">Leads</option> 
+  <option value="Content">Content</option>
+  <option value="Contentt">Contentt</option>
+        </select>
+       
+  	<input type="text" placeholder="Search by leads" class="inline leftmargin10 noborder" style="width: 150px">
+</span>
+<span class="floatleft">           
+    <a class="btn bckgrndorange colorwhite leftmargin10" href="#" role="button">
+    Add
+  </a>
+  	<a class="btn bckgrndpurple colorwhite leftmargin10" href="#" role="button">
+    Compose
+  </a>
+    <i class="far fa-question-circle font20 colororange leftmargin10 topmargin2"></i>
+</span> 
 		</nav>
 	</div>
 
@@ -58,10 +69,10 @@
 		</div>
 	</div>
 
-<div class="bckgrndwhite row" style="margin-left: auto">
-		<div class="col-md-8" >
+<div class="row" style="margin-left: auto">
+		<div class="col-md-8 " >
             <form>
-            <div class="row" style="margin-left: auto">
+            <div class="row bckgrndwhite" style="margin-left: auto">
                 
     <div class="col">
         <legend>General</legend>
@@ -138,6 +149,17 @@
                     <li>Follow-up status has changed from Open to Close. LeadSource Set to Hot</li>
                     <li>NOTE: Lead Fitness Goal options changed from Flexibility to Weight Gain_Flexibility</li>
                 </ul>
+       
+               
+  <form >
+      <div class="input-group" >
+          <textarea class="form-control custom-control" rows="3" style="resize:none" placeholder="Add text for your reference"></textarea>
+          
+          <span class="input-group-addon btn btn-primary" id="submitMyForm" ><i class="far fa-paper-plane font20" style="padding-top: 50%"></i></span>
+      </div>
+  </form>
+       
+                    
             </div>
         </div>	
 </div>
