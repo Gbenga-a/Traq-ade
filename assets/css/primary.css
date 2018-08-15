@@ -54,6 +54,10 @@
 	color: grey;
 }
 
+.colororange {
+    color: orange;
+}
+
 .borderr {
 	border: solid 2px yellow;
 }
@@ -81,7 +85,7 @@
 .vertical-menu {
     width: 60px;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     top:0px;
     left: 0px;
 }
@@ -112,7 +116,7 @@
 	top:0px;
 }
 
-.leftmargin60 {
+.leftmargin50 {
 	margin-left: 60px;
 }
 
@@ -134,6 +138,10 @@
 
 .nobullet {
 	list-style-type: none;
+}
+
+.orangebullet {
+    list-style-type: 
 }
 
 #sublist a {
@@ -168,7 +176,7 @@
 }
 
 legend {
-	color: ;
+	color: darkorange !important;
 }
 
 input {
@@ -176,6 +184,19 @@ input {
     -bottom:10px
 }
 
+.row {
+    background: #f6f6f6;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    padding: 10px;
+}
+.col {
+    float: left;
+    width: 50%
+}
 
+er ul {list-style: none}
 
-
+#activity  li::before {content: "•"; color: orange;
+  display: inline-block; width: 1em;
+  margin-left: -1em}

@@ -18,12 +18,12 @@
 
 </head>
 <body class="bckgrndlightblue">
+<div>
 
-
-
-<aside class="">
+<div>
+<aside>
 	<div class="vertical-menu bckgrndnavy centertext fullheight">
-<a href="#"><i class="fab fa-wolf-pack-battalion colorgrey font20"></i></a>
+<a href="#"><i class="fab fa-wolf-pack-battalion colororange font20"></i></a>
 <a href="#"><i class="fas fa-chart-pie font14"></i></a>
 <a href="#"><i class="fas fa-user font14"></i></a>
 <a href="#"><i class="fas fa-magnet font14"></i></a>
@@ -34,10 +34,10 @@
 <a href="#"><i class="fas fa-bullhorn font14"></i></a>
 	</div>
 </aside>
-
-<div class="leftmargin60">
-	<div>
-		<nav class="navbar bckgrndwhite position-abs top0">
+</div>
+<div class="leftmargin50" style="margin-left: 70px">
+	<div style="margin-left: auto">
+		<nav class="navbar bckgrndwhite position-abs top0" style="margin-left: ; width: auto" >
   	<a href="/html/">HTML</a> |
   	<a href="/css/">CSS</a> |
   	<a href="/js/">JavaScript</a> |
@@ -45,10 +45,10 @@
 		</nav>
 	</div>
 
-	<div class="bckgrndlightblue mx-auto pt-3 pb">
+	<div class="bckgrndlightblue mx-auto pt-3 pb" style="margin-left: auto">
 
 		<div>
-			<h6 class="floatleft inline ">Settings</h6>
+			<h6 class="floatleft inline" style="margin-left: 15px" >Settings</h6>
 				<ul id="sublist" class="centertext nobullet orangehover ">			
   	<li class="centertext inline nobullet active"><a href="/Profile/"><h6 class="inline">Profile</h6></a></li> 
  	 <li class="centertext inline nobullet"><a href="/Center Profile/"><h6 class="inline">Center Profile</h6></a></li> 
@@ -58,46 +58,90 @@
 		</div>
 	</div>
 
-<div class="bckgrndwhite borderr">
-	<div class="">
-		<div class="borderr col-md-8">
-            <div class='row'>
+<div class="bckgrndwhite row" style="margin-left: auto">
+		<div class="col-md-8" >
             <form>
-                <fieldset>
-                <div class='col'>           
-  
-    <legend>General</legend>
-      Profile picture<br>
-    <input type="image" name="Profile" ><br>
-
-      <label for="userId"><h6>Email</h6></label>
-    <input type="text" name="firstname" placeholder="Enter personal email ID"><br>
+            <div class="row" style="margin-left: auto">
+                
+    <div class="col">
+        <legend>General</legend>
+        <h6>Profile picture</h6>
+    <input type="image" name="Profilepicture" class="form-control" style="height: 125px"><br>
+    <h6>Email</h6>
+    <input type="text" name="Email" placeholder="Enter personal email ID" class="form-control"><br>
     <h6>Gender</h6>
-    <input type="text" name="lastname" ><br>
-      <h6>Designation</h6>
-      <input type="text" name="Designation" value="Personal Trainer">
+    <select class="form-control">
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+</select><br>
+    <h6>Designation</h6>
+    <input type="text" name="Email" placeholder="" class="form-control"><br>
+         
     </div>
-      <div class="col">
                 
-    <h6>First Name</h6>
-    <input type="text" name="firstname" value="Mickey"><br>
+                
+    <div class="col">
+        <legend style="visibility: hidden;" >General</legend>
+        <h6>First Name</h6>
+    <input type="text" name="firstname" Placeholder="Insert full name here" class="form-control"><br>
     <h6>Phone</h6>
-    <input type="text" name="lastname" value="Mouse"><br>
+    <input type="text" name="phone" placeholder="Insert phone number here" class="form-control"><br>
+     <h6>Date of Birth</h6>
+    <input type="date" name="bday" class="form-control"><br>
+     <h6>Languages you speak</h6>
+    <input type="text" name="phone" class="form-control"><br>
     
-
-    </div>
-  </fieldset>
-        </form>
+    </div> 
+                </div> 
+            
+        <div class="row" style="margin-left: auto">
                 
-            </div>
+    <div class="col">
+        <legend>Address</legend>
+        <h6>Postcode</h6>
+    <input type="text" name="phone" placeholder="Insert postcode here" class="form-control"><br>
+    <h6>City</h6>
+    <input type="text" name="Email" placeholder="Enter city here" class="form-control"><br>
+    <h6>Street Address</h6>
+    <select class="form-control">
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+</select><br>
+   
+         
+    </div>
+                
+                
+    <div class="col">
+        <legend style="visibility: hidden;" >General</legend>
+        <h6>Locality</h6>
+    <input type="text" name="firstname" Placeholder="Insert locality here" class="form-control"><br>
+    <h6>State</h6>
+    <input type="text" name="phone" placeholder="Insert state here" class="form-control"><br>
+     
+    
+    </div> 
+                </div> 
+            </form>
+           
 			
 		</div>		
 
-		<div class="width20 borderr floatright col-md-4">
-			
-		</div>
+<div class="floatright col-md-4 fullheight" id="activity">
+		<div>
+            <div style="border-bottom: solid 1px grey" >
+                <h6 >My Activity</h6>
+            </div> 
+            <div>
+                <ul class="nobullet">
+                    <li>Fitness Goal options changed from Flexibility To Weight Gain Flexibility</li>
+                    <li>Follow-up status has changed from Open to Close. LeadSource Set to Hot</li>
+                    <li>NOTE: Lead Fitness Goal options changed from Flexibility to Weight Gain_Flexibility</li>
+                </ul>
+            </div>
+        </div>	
+</div>
 	
- 	</div> 
 	
 		</div>
 
@@ -109,7 +153,7 @@
 
 
 
-
+</div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
